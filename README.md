@@ -97,6 +97,5 @@ The [QA review](review/REVIEW.md) records independent API and browser evidence, 
 
 - The browser shows today's ledger. Use the API with an explicit date to retrieve a backdated trade.
 - `SENT` is a manual status. Broker connectivity, authentication, and a full audit trail are outside the assessment scope.
-- An unquoted JSON quantity of `1e309` returns HTTP 500. The expected response is HTTP 422, and no trade is stored. [QA reproduction](review/REVIEW.md#p0-finding-for-the-backend-owner)
 
 [Backend](backend/) · [Frontend](frontend/) · [API contract](docs/api-contract.md) · [Independent checks](review/tests/)
